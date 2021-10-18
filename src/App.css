@@ -1,7 +1,7 @@
 
 
 #root{
-  background-color: #e8e8e8;
+  background-color: #f1f1f1;
   width:350px;
   margin:auto;
   padding: 20px;
@@ -11,6 +11,9 @@
 li{
   padding:10px 0px;
   color:#4aa1db;
+}
+li::marker{
+  color:black;
 }
 
 button{
