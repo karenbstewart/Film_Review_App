@@ -10,12 +10,11 @@ const FilmListDisplayArea = ({films}) => {
             <ul>
                 <li>{filmComponents}</li>
             </ul>
-            <hr/>
             
         </>
     );
 }
 
-export default FilmListDisplayArea
+export default FilmListDisplayArea;
 
 

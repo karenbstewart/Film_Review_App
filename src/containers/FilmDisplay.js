@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import FilmListDisplayArea from '../components/FilmListDisplayArea';
-
+import Upcomingbutton from '../components/UpcomingButton';
 
 const FilmDisplay = () => {
 
@@ -36,9 +36,11 @@ const FilmDisplay = () => {
 
     return(
         <>
-            <h1>Upcoming Film Release for UK</h1>
+            <h2>Upcoming Film Release for UK</h2>
             <hr/>
             < FilmListDisplayArea films = {films}/>
+            <hr/>
+            < Upcomingbutton/>
         </>
     )
 }

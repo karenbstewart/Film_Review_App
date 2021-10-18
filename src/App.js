@@ -4,7 +4,7 @@ import FilmDisplay from './containers/FilmDisplay';
 
 function App() {
   return (
-    <FilmDisplay/>
+    <FilmDisplay class="filmDisplay"/>
   );
 }
 
