@@ -12,6 +12,11 @@ li{
   padding:10px 0px;
   color:#4aa1db;
 }
+li > a{
+  color:#4aa1db;
+  text-decoration: none;
+
+}
 li::marker{
   color:black;
 }
