@@ -1,9 +1,10 @@
 import react from "react";
-const FilmInfoListItem = ({name}, {url})=> {
+const FilmInfoListItem = ({name, url})=> {
     return(
         <>
             <li>
-                <a href="{url}">{name}</a>
+                
+                <a href={url} target="_blank">{name}</a>
             </li>
         </>
         
